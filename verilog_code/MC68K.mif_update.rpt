@@ -1,0 +1,90 @@
+MIF/HEX Update report for MC68K
+Sat Mar 02 21:27:58 2024
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. MIF/HEX Update Summary
+  3. MIF/HEX Update Processed Files
+  4. MIF/HEX Update Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; MIF/HEX Update Summary                                        ;
++-----------------------+---------------------------------------+
+; MIF/HEX Update Status ; Successful - Sat Mar 02 21:27:58 2024 ;
+; Revision Name         ; MC68K                                 ;
+; Top-level Entity Name ; MC68K                                 ;
+; Family                ; Cyclone V                             ;
+; Device                ; 5CSEMA5F31C6                          ;
++-----------------------+---------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; MIF/HEX Update Processed Files                                                                                  ;
++-----------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                       ;
++-----------------------------------------------------------------------------------------------------------------+
+; C:/ubc/yair-ubc.cpen412/final_project_2023_sem2_student_template/Programs/DebugMonitorCode/M68kdebugmonitor.mif ;
++-----------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------+
+; MIF/HEX Update Messages ;
++-------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime MIF/HEX Update
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+    Info: Copyright (C) 2018  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details.
+    Info: Processing started: Sat Mar 02 21:27:41 2024
+Info: Command: quartus_cdb --update_mif MC68K.qpf
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (39023): Can't find Memory Initialization File phoneme.mif -- skipped updates for this file
+Warning (39023): Can't find Memory Initialization File db/MC68K.ram0_speech_instruction_memory_4f20f210.hdl.mif -- skipped updates for this file
+Warning (113028): 7152 out of 16384 addresses are uninitialized. The Quartus Prime software will initialize them to "0". There are 2 warnings found, and 2 warnings are reported. File: C:/ubc/yair-ubc.cpen412/final_project_2023_sem2_student_template/Programs/DebugMonitorCode/M68kdebugmonitor.mif Line: 1
+    Warning (113027): Addresses ranging from 96 to 511 are not initialized File: C:/ubc/yair-ubc.cpen412/final_project_2023_sem2_student_template/Programs/DebugMonitorCode/M68kdebugmonitor.mif Line: 1
+    Warning (113027): Addresses ranging from 9648 to 16383 are not initialized File: C:/ubc/yair-ubc.cpen412/final_project_2023_sem2_student_template/Programs/DebugMonitorCode/M68kdebugmonitor.mif Line: 1
+Info (39024): Processed the following Memory Initialization File(s)
+    Info (39025): Processed Memory Initialization File C:/ubc/yair-ubc.cpen412/final_project_2023_sem2_student_template/Programs/DebugMonitorCode/M68kdebugmonitor.mif File: C:/ubc/yair-ubc.cpen412/final_project_2023_sem2_student_template/Programs/DebugMonitorCode/M68kdebugmonitor.mif Line: 0
+Info: Quartus Prime MIF/HEX Update was successful. 0 errors, 6 warnings
+    Info: Peak virtual memory: 789 megabytes
+    Info: Processing ended: Sat Mar 02 21:27:59 2024
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:17
+
+
