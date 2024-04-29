@@ -1,0 +1,6 @@
+
+
+C:/Tetris_final_AP_v1/lpm_bustri2.vhd
+
+Apr 18 02PM:12:02>: Megafunction LPM_BUSTRI is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted

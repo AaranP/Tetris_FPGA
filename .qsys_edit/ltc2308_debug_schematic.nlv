@@ -1,0 +1,9 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst ltc2308_debug.in_system_sources_probes_0 -pg 1 -lvl 1 -y 30
+preplace inst ltc2308_debug -pg 1 -lvl 1 -y 40 -regy -20
+preplace netloc EXPORT<net_container>ltc2308_debug</net_container>(SLAVE)in_system_sources_probes_0.probes,(SLAVE)ltc2308_debug.probes) 1 0 1 NJ
+preplace netloc EXPORT<net_container>ltc2308_debug</net_container>(SLAVE)in_system_sources_probes_0.sources,(SLAVE)ltc2308_debug.sources) 1 0 1 NJ
+preplace netloc EXPORT<net_container>ltc2308_debug</net_container>(SLAVE)ltc2308_debug.source_clk,(SLAVE)in_system_sources_probes_0.source_clk) 1 0 1 NJ
+levelinfo -pg 1 0 80 310
+levelinfo -hier ltc2308_debug 90 150 290

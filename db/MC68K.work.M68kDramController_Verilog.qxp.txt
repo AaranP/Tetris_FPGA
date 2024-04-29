@@ -1,0 +1,56 @@
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
++--------------------------------------------------------------------------------------------+
+; Quartus Prime QXP Design File                                                              ;
++------------------+-------------------------------------------------------------------------+
+; Field            ; Value                                                                   ;
++------------------+-------------------------------------------------------------------------+
+; Entity           ; M68kDramController_Verilog                                              ;
+; Case Sensitive   ;                                                                         ;
+; QXP Source       ; M68kDramController.qxp                                                  ;
+; Software Version ; Version 18.1.0 Build 625 09/12/2018 Patches 0.18std SJ Standard Edition ;
+; Date             ; Mon Jan 31 23:41:34 2022                                                ;
+; Contents         ; Netlist Only                                                            ;
+; Family           ; 5CSEMA5F31C6                                                            ;
+; Device           ; CYCLONEV_SE90M_V_F896C6                                                 ;
++------------------+-------------------------------------------------------------------------+
+
++---------------------------------------------------------------+
+; Boundary Ports                                                ;
++-------------------+--------+----------------------------------+
+; Port Name         ; Type   ; Default Value                    ;
++-------------------+--------+----------------------------------+
+; Clock             ; input  ; 0                                ;
+; Reset_L           ; input  ; 0                                ;
+; Address [31:0]    ; input  ; 00000000000000000000000000000000 ;
+; DataIn [15:0]     ; input  ; 0000000000000000                 ;
+; UDS_L             ; input  ; 0                                ;
+; LDS_L             ; input  ; 0                                ;
+; DramSelect_L      ; input  ; 0                                ;
+; WE_L              ; input  ; 0                                ;
+; AS_L              ; input  ; 0                                ;
+; DataOut [15:0]    ; output ; 0000000000000000                 ;
+; SDram_CKE_H       ; output ; 0                                ;
+; SDram_CS_L        ; output ; 0                                ;
+; SDram_RAS_L       ; output ; 0                                ;
+; SDram_CAS_L       ; output ; 0                                ;
+; SDram_WE_L        ; output ; 0                                ;
+; SDram_Addr [12:0] ; output ; 0000000000000                    ;
+; SDram_BA [1:0]    ; output ; 00                               ;
+; SDram_DQ [15:0]   ; bidir  ; 0000000000000000                 ;
+; Dtack_L           ; output ; 0                                ;
+; ResetOut_L        ; output ; 0                                ;
+; DramState [4:0]   ; output ; 00000                            ;
++-------------------+--------+----------------------------------+
